@@ -1,0 +1,30 @@
+[project]
+name = "langgraph-workshop"
+version = "0.1.0"
+description = "ReflectAI — Startup Idea Analyzer (AI-First Workshop)"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.4",
+    "langchain-core>=0.3",
+    "langchain-openai>=0.3",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
+api = [
+    "fastapi>=0.110",
+    "uvicorn>=0.30",
+]
+
+[tool.setuptools.packages.find]
+include = ["reflectai*"]
+exclude = ["solutions*", "tests*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
