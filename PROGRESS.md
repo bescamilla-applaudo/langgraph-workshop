@@ -1,17 +1,17 @@
 # ReflectAI — Workshop Progress
 
 ## Setup
-- [ ] Python 3.11+ installed
-- [ ] Virtual environment created (`.venv`)
-- [ ] Dependencies installed (`pip install -e ".[dev]"`)
-- [ ] `python main.py` prints "ReflectAI v0.1.0"
+- [x] Python 3.11+ installed
+- [x] Virtual environment created (`.venv`)
+- [x] Dependencies installed (`pip install -e ".[dev]"`)
+- [x] `python main.py` prints "ReflectAI v0.1.0"
 
 ## Phase 1 — The Basic Graph (No LLM)
-- [ ] `reflectai/state.py` — BasicState and ReflectionState with TypedDict
-- [ ] `reflectai/nodes.py` — clean_text, analyze_text, format_output
-- [ ] `reflectai/graph.py` — create_basic_graph() with 3 nodes
-- [ ] The graph processes text and returns correct word_count + language
-- [ ] I understand what a reducer is (Annotated[list, operator.add])
+- [x] `reflectai/state.py` — BasicState and ReflectionState with TypedDict
+- [x] `reflectai/nodes.py` — clean_text, analyze_text, format_output
+- [x] `reflectai/graph.py` — create_basic_graph() with 3 nodes
+- [x] The graph processes text and returns correct word_count + language
+- [x] I understand what a reducer is (Annotated[list, operator.add])
 
 ## Phase 2 — Schemas and Mock LLM
 - [ ] `reflectai/schemas.py` — AnalysisOutput, CritiqueOutput, RefinedOutput
