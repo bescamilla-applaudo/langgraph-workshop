@@ -20,11 +20,11 @@
 - [x] I understand with_structured_output and why it's key for reliable AI
 
 ## Phase 3 — The Reflection Pattern
-- [ ] `reflectai/reflection/nodes.py` — Factory functions for Generator, Critic, Refiner
-- [ ] `reflectai/reflection/graph.py` — create_reflection_graph() with conditional edges
-- [ ] The graph runs Generator → Critic → (Refiner | Passthrough) → END
-- [ ] Messages accumulate correctly (reducer works)
-- [ ] I understand why Generator → Critic → Refiner improves output quality
+- [x] `reflectai/reflection/nodes.py` — Factory functions for Generator, Critic, Refiner
+- [x] `reflectai/reflection/graph.py` — create_reflection_graph() with conditional edges
+- [x] The graph runs Generator → Critic → (Refiner | Passthrough) → END
+- [x] Messages accumulate correctly (reducer works)
+- [x] I understand why Generator → Critic → Refiner improves output quality
 
 ## Phase 4 — Task System
 - [ ] `reflectai/tasks/base.py` — Abstract BaseTask with lazy graph caching
