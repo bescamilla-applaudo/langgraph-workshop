@@ -38,11 +38,11 @@
 - [x] I understand env_prefix vs alias for OPENROUTER_API_KEY
 
 ## Phase 6 — Testing
-- [ ] `tests/conftest.py` — Fixtures with MockLLM and sample states
-- [ ] `tests/test_basic_graph.py` — 5 tests for the basic graph
-- [ ] `tests/test_reflection.py` — 6 tests for the Reflection Pattern
-- [ ] `tests/test_tasks.py` — 6 tests for the task system
-- [ ] 17 tests pass with `pytest tests/ -v`
+- [x] `tests/conftest.py` — Fixtures with MockLLM and sample states
+- [x] `tests/test_basic_graph.py` — 5 tests for the basic graph
+- [x] `tests/test_reflection.py` — 6 tests for the Reflection Pattern
+- [x] `tests/test_tasks.py` — 6 tests for the task system
+- [x] 17 tests pass with `pytest tests/ -v`
 
 ## Phase 7 — Entry Point & Demo
 - [ ] `main.py` runs IdeaAnalyzerTask and displays result
