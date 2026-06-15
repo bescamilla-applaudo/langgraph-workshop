@@ -33,9 +33,9 @@
 - [x] I understand the encapsulation pattern: Task wraps Graph wraps Nodes
 
 ## Phase 5 — Configuration
-- [ ] `reflectai/config.py` — Settings with pydantic-settings
-- [ ] get_settings() works with and without .env file
-- [ ] I understand env_prefix vs alias for OPENROUTER_API_KEY
+- [x] `reflectai/config.py` — Settings with pydantic-settings
+- [x] get_settings() works with and without .env file
+- [x] I understand env_prefix vs alias for OPENROUTER_API_KEY
 
 ## Phase 6 — Testing
 - [ ] `tests/conftest.py` — Fixtures with MockLLM and sample states
