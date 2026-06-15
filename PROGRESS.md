@@ -14,10 +14,10 @@
 - [x] I understand what a reducer is (Annotated[list, operator.add])
 
 ## Phase 2 — Schemas and Mock LLM
-- [ ] `reflectai/schemas.py` — AnalysisOutput, CritiqueOutput, RefinedOutput
-- [ ] `reflectai/mock_llm.py` — MockLLM + MockStructuredLLM
-- [ ] MockStructuredLLM returns valid Pydantic instances
-- [ ] I understand with_structured_output and why it's key for reliable AI
+- [x] `reflectai/schemas.py` — AnalysisOutput, CritiqueOutput, RefinedOutput
+- [x] `reflectai/mock_llm.py` — MockLLM + MockStructuredLLM
+- [x] MockStructuredLLM returns valid Pydantic instances
+- [x] I understand with_structured_output and why it's key for reliable AI
 
 ## Phase 3 — The Reflection Pattern
 - [ ] `reflectai/reflection/nodes.py` — Factory functions for Generator, Critic, Refiner
