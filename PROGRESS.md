@@ -45,6 +45,6 @@
 - [x] 17 tests pass with `pytest tests/ -v`
 
 ## Phase 7 — Entry Point & Demo
-- [ ] `main.py` runs IdeaAnalyzerTask and displays result
-- [ ] Everything works without API key (MockLLM)
-- [ ] (Bonus) Tested with real LLM (OPENROUTER_API_KEY in .env)
+- [x] `main.py` runs IdeaAnalyzerTask and displays result
+- [x] Everything works without API key (MockLLM)
+- [x] (Bonus) Tested with real LLM (OPENROUTER_API_KEY in .env)
