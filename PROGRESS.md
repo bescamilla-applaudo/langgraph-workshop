@@ -27,10 +27,10 @@
 - [x] I understand why Generator → Critic → Refiner improves output quality
 
 ## Phase 4 — Task System
-- [ ] `reflectai/tasks/base.py` — Abstract BaseTask with lazy graph caching
-- [ ] `reflectai/tasks/idea_analyzer.py` — Concrete IdeaAnalyzerTask
-- [ ] task.execute() works and returns dict with viability_score, strengths, etc.
-- [ ] I understand the encapsulation pattern: Task wraps Graph wraps Nodes
+- [x] `reflectai/tasks/base.py` — Abstract BaseTask with lazy graph caching
+- [x] `reflectai/tasks/idea_analyzer.py` — Concrete IdeaAnalyzerTask
+- [x] task.execute() works and returns dict with viability_score, strengths, etc.
+- [x] I understand the encapsulation pattern: Task wraps Graph wraps Nodes
 
 ## Phase 5 — Configuration
 - [ ] `reflectai/config.py` — Settings with pydantic-settings
